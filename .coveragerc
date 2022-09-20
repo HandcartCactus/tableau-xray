@@ -1,0 +1,7 @@
+[report]
+omit =
+    setup.py
+    tableau_xray/__main__.py
+    tableau_xray/_version.py
+    versioneer.py
+    tests/*
