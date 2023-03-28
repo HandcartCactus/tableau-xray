@@ -26,3 +26,5 @@ Tableau Xray was going to be a high-level parser for a tableau workbook. Under t
 
 
 If the file is a ``.twbx`` file, I call ``tempfile.mkdtemp`` to create a library to unzip the file to. It doesn't delete itself once the script is done running, in case you wanted to use the unzipped contents in other ways.
+
+You would then use the outputs just like any other `BS4/BeautifulSoup object <https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-xml-documents>`_
